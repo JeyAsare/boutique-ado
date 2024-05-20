@@ -51,7 +51,7 @@ def bag_contents(request):
         'delivery' : delivery,
         'grand_total' : grand_total,
         'free_delivery_delta' : free_delivery_delta,
-        'free_delivery_threshold' : settings.FREE_DELIVERY_THRESHOLD
+        'free_delivery_threshold' : settings.FREE_DELIVERY_THRESHOLD,
     }
 
     return context
